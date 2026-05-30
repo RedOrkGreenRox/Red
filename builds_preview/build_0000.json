@@ -1,0 +1,433 @@
+{
+ "grid": {
+  "cols": 9,
+  "rows": 6,
+  "cell": 120,
+  "origin_x": 342,
+  "origin_y": 34
+ },
+ "bags": [
+  {
+   "name": "Bottom Trawl",
+   "kind": "bag",
+   "cells": [
+    [
+     4,
+     0
+    ],
+    [
+     4,
+     1
+    ],
+    [
+     4,
+     2
+    ],
+    [
+     5,
+     0
+    ],
+    [
+     5,
+     1
+    ],
+    [
+     5,
+     2
+    ],
+    [
+     6,
+     0
+    ],
+    [
+     6,
+     1
+    ],
+    [
+     6,
+     2
+    ]
+   ],
+   "anchor": [
+    4,
+    0
+   ],
+   "rot": 0,
+   "img_path": "/home/user/Red/Bags/Bottom Trawl.png"
+  },
+  {
+   "name": "Reinforced Mining Bag",
+   "kind": "bag",
+   "cells": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ]
+   ],
+   "anchor": [
+    0,
+    1
+   ],
+   "rot": 0,
+   "img_path": "/home/user/Red/Bags/Reinforced Mining Bag.png"
+  },
+  {
+   "name": "Warrior Backpack",
+   "kind": "bag",
+   "cells": [
+    [
+     4,
+     3
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     3
+    ],
+    [
+     5,
+     4
+    ],
+    [
+     5,
+     5
+    ]
+   ],
+   "anchor": [
+    4,
+    3
+   ],
+   "rot": 0,
+   "img_path": "/home/user/Red/Bags/Warrior Backpack.png"
+  },
+  {
+   "name": "Ranger's Satchel",
+   "kind": "bag",
+   "cells": [
+    [
+     6,
+     3
+    ],
+    [
+     6,
+     4
+    ],
+    [
+     6,
+     5
+    ],
+    [
+     7,
+     3
+    ],
+    [
+     7,
+     4
+    ],
+    [
+     7,
+     5
+    ]
+   ],
+   "anchor": [
+    6,
+    3
+   ],
+   "rot": 0,
+   "img_path": "/home/user/Red/Bags/Ranger's Satchel.png"
+  },
+  {
+   "name": "Wizard's Pouch",
+   "kind": "bag",
+   "cells": [
+    [
+     2,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     3,
+     3
+    ],
+    [
+     3,
+     4
+    ]
+   ],
+   "anchor": [
+    2,
+    2
+   ],
+   "rot": 0,
+   "img_path": "/home/user/Red/Bags/Wizard's Pouch.png"
+  }
+ ],
+ "items": [
+  {
+   "name": "Viridian Warbler",
+   "kind": "item",
+   "cells": [
+    [
+     7,
+     4
+    ]
+   ],
+   "anchor": [
+    7,
+    4
+   ],
+   "rot": 90,
+   "img_path": "/home/user/Red/Items/Viridian Warbler.png"
+  },
+  {
+   "name": "Wildfire Essence",
+   "kind": "item",
+   "cells": [
+    [
+     5,
+     2
+    ]
+   ],
+   "anchor": [
+    5,
+    2
+   ],
+   "rot": 90,
+   "img_path": "/home/user/Red/Items/Wildfire Essence.png"
+  },
+  {
+   "name": "Large Water Potion",
+   "kind": "item",
+   "cells": [
+    [
+     5,
+     0
+    ],
+    [
+     5,
+     1
+    ]
+   ],
+   "anchor": [
+    5,
+    0
+   ],
+   "rot": 0,
+   "img_path": "/home/user/Red/Items/Large Water Potion.png"
+  },
+  {
+   "name": "Longing Begonia",
+   "kind": "item",
+   "cells": [
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ]
+   ],
+   "anchor": [
+    2,
+    3
+   ],
+   "rot": 180,
+   "img_path": "/home/user/Red/Items/Longing Begonia.png"
+  },
+  {
+   "name": "Perennial Recurve",
+   "kind": "item",
+   "cells": [
+    [
+     4,
+     2
+    ],
+    [
+     4,
+     3
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "anchor": [
+    4,
+    2
+   ],
+   "rot": 0,
+   "img_path": "/home/user/Red/Items/Perennial Recurve.png"
+  },
+  {
+   "name": "Runesmith Goniometer",
+   "kind": "item",
+   "cells": [
+    [
+     5,
+     3
+    ],
+    [
+     5,
+     4
+    ],
+    [
+     5,
+     5
+    ],
+    [
+     6,
+     5
+    ],
+    [
+     7,
+     5
+    ]
+   ],
+   "anchor": [
+    5,
+    3
+   ],
+   "rot": 90,
+   "img_path": "/home/user/Red/Items/Runesmith Goniometer.png"
+  },
+  {
+   "name": "Heavenly Skull",
+   "kind": "item",
+   "cells": [
+    [
+     3,
+     2
+    ]
+   ],
+   "anchor": [
+    3,
+    2
+   ],
+   "rot": 180,
+   "img_path": "/home/user/Red/Items/Heavenly Skull.png"
+  },
+  {
+   "name": "Placebo Potion",
+   "kind": "item",
+   "cells": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ]
+   ],
+   "anchor": [
+    1,
+    2
+   ],
+   "rot": 0,
+   "img_path": "/home/user/Red/Items/Placebo Potion.png"
+  },
+  {
+   "name": "Koneko Steel Knife",
+   "kind": "item",
+   "cells": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ]
+   ],
+   "anchor": [
+    0,
+    1
+   ],
+   "rot": 90,
+   "img_path": "/home/user/Red/Items/Koneko Steel Knife.png"
+  },
+  {
+   "name": "Blind Bake Pie",
+   "kind": "item",
+   "cells": [
+    [
+     3,
+     3
+    ],
+    [
+     3,
+     4
+    ]
+   ],
+   "anchor": [
+    3,
+    3
+   ],
+   "rot": 90,
+   "img_path": "/home/user/Red/Items/Blind Bake Pie.png"
+  },
+  {
+   "name": "Filled Chocolate Shield",
+   "kind": "item",
+   "cells": [
+    [
+     4,
+     1
+    ]
+   ],
+   "anchor": [
+    4,
+    1
+   ],
+   "rot": 0,
+   "img_path": "/home/user/Red/Items/Filled Chocolate Shield.png"
+  }
+ ]
+}

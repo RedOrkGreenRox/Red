@@ -1,0 +1,870 @@
+path: /home/user/Red/dataset
+train: images/train
+val: images/val
+nc: 865
+names:
+- bag:Armor Pack
+- bag:Bag of Lost Souls
+- bag:Bag of Wilful Burden
+- bag:Barkweave Basket
+- bag:Berserker Sack
+- bag:Bolstering Bag
+- bag:Bottom Trawl
+- bag:Briny Fish Basket
+- bag:Cast Net
+- bag:Critical Sack
+- bag:Cutting Board Bag
+- bag:Drift Net
+- bag:Fanny Pack
+- bag:Grab Bag
+- bag:Medium Bag
+- bag:Planner's Pack
+- bag:Pumpkin Patch
+- bag:Radiance Satchel
+- bag:Ranger's Satchel
+- bag:Recharge Rucksack
+- bag:Reinforced Mining Bag
+- bag:Shadow Satchel
+- bag:Stamina Sack
+- bag:Stinger Collector
+- bag:Tactical Knapsack
+- bag:Toolbox
+- bag:Warrior Backpack
+- bag:Wizard's Pouch
+- item:Abyssal Embrace
+- item:Adamantite Axepick
+- item:Adamantite Bar
+- item:Adamantite Forge Hammer
+- item:Adamantite Ore
+- item:Admiralty Anchor
+- item:Aged Grape Juice
+- item:All-Seeing Bat
+- item:Amberheart Amulet
+- item:Amethyst
+- item:Amethyst Blade
+- item:Amethyst Dancer
+- item:Amethyst Pendant
+- item:Ancestral Spirit
+- item:Ancient Grog
+- item:Ancient Soul
+- item:Antivenom
+- item:Aping Acolyte
+- item:Apple
+- item:Arboreal Defender
+- item:Arcane Bolt Blaster
+- item:Arcane Core
+- item:Arcane Crystal
+- item:Arcane Scroll
+- item:Arcane Starcharter
+- item:Arcanefly
+- item:Arctic Core
+- item:Aristorat
+- item:Armor Kit
+- item:Arrow Sheath
+- item:Astral Gloves
+- item:Astral Reaver
+- item:Autotrigger
+- item:Axe of Abraxas
+- item:Axe-shaped Present
+- item:Baby Core Creeper
+- item:Bag of Flour
+- item:Bag of Maggots
+- item:Ball of Thread
+- item:Banana
+- item:Banana-shaped Present
+- item:Barbed Spring
+- item:Barkskin Horn
+- item:Bat
+- item:Bat Visor
+- item:Bear Visage
+- item:Beautiful Bouquet
+- item:Bellringer Beetle
+- item:Belt of Firethrowing
+- item:Berserker Helmet
+- item:Berserker Potion
+- item:Big Chocolate Gift Box
+- item:Big Clockwork Bomb
+- item:Big Present
+- item:Bite Trap
+- item:Black Cat
+- item:Blast Furnace Bellows
+- item:Blasted Gull
+- item:Blazegaze
+- item:Blazing Berry
+- item:Blazing Rod
+- item:Blind Bake Pie
+- item:Blood Moon Berry
+- item:Blood Siphon Potion
+- item:Bloodletter
+- item:Bloodrage Axe
+- item:Bloodsucker's Visage
+- item:Bloodthorn
+- item:Bloodwood Spear
+- item:Blue Chilly Cheese
+- item:Blueberry Bliss
+- item:Bolstered Helmet
+- item:Bolt Cutter
+- item:Bolt Quiver
+- item:Bolts
+- item:Bombus
+- item:Bonecrusher
+- item:Bonesaw
+- item:Boo Bar
+- item:Book of Ephemeral Earth
+- item:Book of Everlasting Flame
+- item:Boom Barrel
+- item:Boomer
+- item:Boomslang
+- item:Bosun's Monocular
+- item:Boulder
+- item:Bouquet of Roses
+- item:Box of Chocolates
+- item:Brainsquasher
+- item:Bramblebat
+- item:Brambleheart
+- item:Bramblethorn Thicket
+- item:Briarthorn
+- item:Bright Vision Goggles
+- item:Brimstone Powder
+- item:Briny Mystery Egg
+- item:Broken Oar
+- item:Bronze Bar
+- item:Bronzebark Carnyx
+- item:Broom
+- item:Bucket of Nightmares
+- item:Burning Water
+- item:Butter
+- item:Buzzing Bouquet
+- item:Buzzing Bungalow
+- item:Buzzing Mystery Egg
+- item:Cactrio
+- item:Cactus
+- item:Caged Songbird
+- item:Campfire Skillet
+- item:Candy Corn
+- item:Candy Swirl
+- item:Captain's Cap
+- item:Carnage Saw
+- item:Carrot
+- item:Cast Iron Anchor
+- item:Cat Whisker Whisk
+- item:Cat-o-Lantern
+- item:Cataclysm
+- item:Caterpillar
+- item:Cauldron
+- item:Celestial Teapot
+- item:Ceremonial Lathi
+- item:Chain Lightning Codex
+- item:Champion Bee
+- item:Champion's Ripper
+- item:Champion's Syrup
+- item:Charcuterie Shield
+- item:Charged Girdle
+- item:Charged Tesseract
+- item:Cheese
+- item:Cheese Board Buckler
+- item:Cheese Wheel of Fortune
+- item:Chef's Hat
+- item:Chef's Knife
+- item:Chillbane
+- item:Chum Bucket
+- item:Cinderstaff
+- item:Cleansing Crown
+- item:Cleansomatic
+- item:Clockwork
+- item:Coconut
+- item:Cocoonling
+- item:Coldfin Cod
+- item:Concentrated Dilution Liquid
+- item:Conflagration Staff
+- item:Core Reactor
+- item:Corny Corn
+- item:Corrupted Shroom
+- item:Corruptor's Wisdom
+- item:Cosmos Ward
+- item:Count Ratula
+- item:Counterfeit Coin
+- item:Crab Trap
+- item:Creepy Doll
+- item:Critical Focus
+- item:Croissant
+- item:Croissant Crossbow
+- item:Croquette
+- item:Crowbane
+- item:Crowbar
+- item:Crownwood
+- item:Crownwood Lur
+- item:Cryoblaze Staff
+- item:Crystal Cluster
+- item:Crystal Golem
+- item:Crystal Shard
+- item:Cursed Candy
+- item:Cursed Clover
+- item:Cursed Idol
+- item:Cyclone Gem
+- item:Dagger
+- item:Danger Candle
+- item:Dark Iron Anvil
+- item:Dark Omen
+- item:Darkvision Faceguard
+- item:Death Essence
+- item:Deathbringer
+- item:Deathdart Dispenser
+- item:Deathhowl
+- item:Deathshot
+- item:Deepsea Candiru
+- item:Defender's Shield
+- item:Delicate Matter Converter
+- item:Dendromancy Rod
+- item:Diamond
+- item:Donut
+- item:Doombringer
+- item:Doomsday Oarfish
+- item:Double-ender
+- item:Dragon's Tail Jelly
+- item:Dragonbreath Chili
+- item:Dragonfang
+- item:Dragonflower
+- item:Dragonleaf
+- item:Dragonleaf Acorn
+- item:Dragonleaf Sapling
+- item:Drakefly
+- item:Dreadleaf
+- item:Drillbot
+- item:Dull Oyster Shucker
+- item:Dumbbell
+- item:Durable Matter Converter
+- item:Duskreaver
+- item:Dusty Book
+- item:EZ-Share Gas Mask
+- item:Eagle Eye Amulet
+- item:Edge Calibrator
+- item:Egg Bunny
+- item:Electric Crown
+- item:Electric Seasnake
+- item:Electrobat
+- item:Electrostatic Scroll
+- item:Elemental Barrier
+- item:Elemental Confluence
+- item:Elemental Core
+- item:Elemental Greatstaff
+- item:Elemental Mystery Egg
+- item:Elemental Whetstone
+- item:Elementium Bulwark
+- item:Elementium Golem
+- item:Elementium Ore
+- item:Elixir Express 3000
+- item:Elven Blade
+- item:Emerald
+- item:Emerald Scarab
+- item:Enchanter's Antlers
+- item:Endurance Potion
+- item:Enhanced Drillbot
+- item:Enlightened Bell
+- item:Errant Lance
+- item:Eternal Heart
+- item:Eternity Essence
+- item:Ethereal Cloak
+- item:Everdrift Anchor
+- item:Evergreen Arc
+- item:Excalibur
+- item:Exhaustion Stone
+- item:Experimental Ice Cream
+- item:Extra Long Present
+- item:Eyeball
+- item:Eyeball Vessel
+- item:Fancy Big Present
+- item:Fancy Long Present
+- item:Fancy Small Present
+- item:Fancy Tiny Present
+- item:Fang the Rattleslang
+- item:Fanged Axe
+- item:Fanged Blade
+- item:Faulty Compass
+- item:Feathered First Mate
+- item:Fermented Grape Juice
+- item:Fiery Quiver
+- item:Filled Chocolate Circle
+- item:Filled Chocolate Clover
+- item:Filled Chocolate Egg
+- item:Filled Chocolate Heart
+- item:Filled Chocolate Moon
+- item:Filled Chocolate Shield
+- item:Filled Chocolate Square
+- item:Filled Chocolate Star
+- item:Filled Chocolate Triangle
+- item:Final Blow
+- item:Fine Sword
+- item:Finely Ground Gravel
+- item:Fingerprintless Gloves
+- item:Fire Lord's Brand
+- item:Fire Sprite
+- item:Fire Vortex
+- item:Fisherman's Hook
+- item:Fishing Harpoon
+- item:Fishing Rod
+- item:Fists of Flame
+- item:Five Leaf Cave Clover
+- item:Flail of Atonement
+- item:Flame Bolt
+- item:Flame Cloak
+- item:Flamescale Seadrake
+- item:Flaming Sword
+- item:Flash Potion
+- item:Flashbang
+- item:Flashy Boots
+- item:Flotsam
+- item:Fluttercatcher
+- item:Fly Agaric
+- item:Forest Mower
+- item:Forest Spirit
+- item:Forgemaster's Tongs
+- item:Fortified Sanjiegun
+- item:Fortress Ring
+- item:Frost Barrier
+- item:Frost Bolts
+- item:Frost Cleaver
+- item:Frost Dagger
+- item:Frost Emblem
+- item:Frost Quiver
+- item:Frost Scroll
+- item:Frost Tome
+- item:Frostbite Ring
+- item:Frostbite Wand
+- item:Frostwing
+- item:Frozen Sprite
+- item:Frozen Stick
+- item:Full Plate Splatterguard
+- item:Fulmination Hammer
+- item:Funky Fundue
+- item:Fur Boots
+- item:Fury Edge
+- item:Fury Fungus
+- item:Fuzzy Mystery Egg
+- item:Fuzzy Sous-chef
+- item:Galvanic Armor
+- item:Gambler's Dice
+- item:Gear
+- item:Gem-Studded Forgeplate
+- item:Gemforged Warpick
+- item:Gemfused Workboots
+- item:Gemstone Forge Hammer
+- item:Giant Chocolate Gift Box
+- item:Giant's Belt
+- item:Ginseng Root
+- item:Gladiator's Emblem
+- item:Glaring Bulb
+- item:Glasshead
+- item:Gleaming Kunai
+- item:Glittercall Magpie
+- item:Gloves of Power
+- item:Gobituary Dart
+- item:Goblin Gizmo
+- item:Goblin Spice Mix
+- item:Gobliterator Dart
+- item:Gobnoxious Dart
+- item:Gold Attuned Shovel
+- item:Gold Bar
+- item:Gold Elixir
+- item:Gold Ore
+- item:Goldcrest
+- item:Golden Clover
+- item:Golden Egg
+- item:Golden Eggnog
+- item:Golden Omelette
+- item:Golden Skull
+- item:Golden Tail
+- item:Goliathfly
+- item:Gothic Shield
+- item:Gourd Grimace
+- item:Grandma's Dusty Blast Box
+- item:Grandpaw's Cookbook
+- item:Grandpaw's Pepper Mill
+- item:Grape Burst
+- item:Grape Juice Cask
+- item:Grapes
+- item:Grapeshot Slinger
+- item:Graveyard Soil
+- item:Green Snapper
+- item:Grilled Cheese
+- item:Grim Scythe
+- item:Grovekeeper Crown
+- item:Guppy
+- item:Gururangutan
+- item:Hag's Cauldron
+- item:Hag's Hat
+- item:Hag's Hatred
+- item:Hailstorm Scepter
+- item:Hammer-shaped Present
+- item:Hand Crossbow
+- item:Hand File
+- item:Harper-Sonic Dart Sling
+- item:Harvest Skull
+- item:Haunted Bat
+- item:Head Chef's Skewer
+- item:Healing Seed
+- item:Health Potion
+- item:Heart of the Mountain
+- item:Heartleaf
+- item:Heartstring Lyre
+- item:Heartwood
+- item:Heater Shield
+- item:Heavenly Skull
+- item:Holy Essence
+- item:Holy Libram
+- item:Honey Bee
+- item:Hooked Blade
+- item:Hooked Dagger
+- item:Hot Choconut
+- item:Huge Chocolate Gift Box
+- item:Hungering Ward
+- item:Hungry Wand
+- item:Hunter's Bow
+- item:Hunting Knife
+- item:Hurricane Focus
+- item:Hypnodisc Deflector
+- item:Ice Age Boomer
+- item:Iceburn Scepter
+- item:Icicle Shard
+- item:Impossible Bottle
+- item:Improvised Smokebomb
+- item:Inconspicuous Fedora
+- item:Indomitable Snowman
+- item:Infernal Ashes
+- item:Infernal Cog
+- item:Infernal Tide
+- item:Infinity Essence
+- item:Infinity Sight
+- item:Ingobnito Mask
+- item:Intense Incense
+- item:Iron Bar
+- item:Iron Bolt
+- item:Iron Chisel
+- item:Iron Forge Hammer
+- item:Iron Ore
+- item:Iron Sword
+- item:Ironhowl
+- item:Ironwill Banner
+- item:Ironwood Boltcaster
+- item:Jack-o-Lantern
+- item:Jackalope
+- item:Jade Dagger
+- item:Jade Stone
+- item:Jagged Blade
+- item:Jelly Jar
+- item:Jetsam
+- item:Karmic Essence
+- item:Kelvin's Tome
+- item:Ki Flow Cord
+- item:Kitsune Spirit Mask
+- item:Kitten's Oven Mittens
+- item:Kiwi Dewdrop
+- item:Koneko Steel Knife
+- item:LB-7 Gobstacle Skippers
+- item:Lantern
+- item:Lanternbug
+- item:Large Water Potion
+- item:Lava Boulder
+- item:Lava Dagger
+- item:Lava Golem
+- item:Lava Rock
+- item:Leafblade Skean
+- item:Leafbound Striders
+- item:Leaky Prototype
+- item:Leather Armor
+- item:Leather Belt
+- item:Leather Boots
+- item:Leather Cloak
+- item:Length of Rope
+- item:Leviathan
+- item:Life Essence
+- item:Lifeless Mystery Egg
+- item:Light Bow
+- item:Lightning Rod
+- item:Lightning Sprite
+- item:Lightning in a Bottle
+- item:Lily Pad Prince
+- item:Line Cook's Apron
+- item:Liquid Electricity
+- item:Living Staff
+- item:Loaf of Bread
+- item:Lobster Pot
+- item:Lockpick Dart
+- item:Loincloth of Fortitude
+- item:Long Present
+- item:Longing Begonia
+- item:Lost Runeword
+- item:Lost Symbol
+- item:Love Letter
+- item:Lucky Clover
+- item:Lucky Ratomelon
+- item:Lucky Tuna
+- item:Lumps of Coal
+- item:Magic Belt
+- item:Magic Dagger
+- item:Magic Essence
+- item:Magic Wrapping Paper
+- item:Magnetronic Retrieval Rod
+- item:Makeshift Oar
+- item:Mala Necklace
+- item:Mallet
+- item:Man-o-lorian Helmet
+- item:Mana Crystal
+- item:Mana Potion
+- item:Mana Recycler
+- item:Mana Shield
+- item:Mana Stew
+- item:Mana Strudel
+- item:Mango Delight
+- item:Manuka Honey
+- item:Mars Flytrap
+- item:Martial Monkey
+- item:Mature Oakheart
+- item:Meat Cleaver
+- item:Mechanized Armor
+- item:Mega Strike Jewel
+- item:Merman's Delight
+- item:Midori Bolt
+- item:Midori Quiver
+- item:Midori Smokebomb
+- item:Midori Toxin
+- item:Mimic
+- item:Mining Helmet
+- item:Mining Pick
+- item:Moldemort
+- item:Molten Core Creeper
+- item:Moonlit Blade
+- item:Mossfur Squirrel
+- item:Muck Rat
+- item:Mystery Stew
+- item:Mystic Rat
+- item:Nebula Jelly
+- item:Neptune's Wrath
+- item:Nice Spice Rack
+- item:Night Angler
+- item:Night Dahlia
+- item:Nightingale
+- item:Nightshade
+- item:Nightsong Raven
+- item:Nor'easter Hat
+- item:Noxious Lantern
+- item:Noxious Red Mush
+- item:Oakblood Glaive
+- item:Oakheart Acorn
+- item:Oakheart Sapling
+- item:Oakheart Sprout
+- item:Ocarina Of Thyme
+- item:Octorius
+- item:Odd Cod
+- item:Odd Mystery Egg
+- item:Oddly-shaped Present
+- item:Oil
+- item:Oil of Vitriol
+- item:Oilskin Slicker
+- item:Paring Knife
+- item:Partial Invisibility Cloak
+- item:Pebbles the Golem Lord
+- item:Perennial Recurve
+- item:Perfectly Normal Crab
+- item:Perpetual Stew
+- item:Pet Collar
+- item:Pet Rock
+- item:Pet Trainer's Whistle
+- item:Phoenix Feather
+- item:Phoenix Scroll
+- item:Piercing Lance
+- item:Pinewhisper Thrush
+- item:Pinktail
+- item:Pitahaya
+- item:Placebo Potion
+- item:Plague Ichor
+- item:Plague Rat
+- item:Plaguebringer's Pendant
+- item:Pleasant Green Paste
+- item:Pliers
+- item:Poison Apple
+- item:Poison Arrows
+- item:Poison Dagger
+- item:Poison Potion
+- item:Pollen Palace
+- item:Polyphemus' Bane
+- item:Poppy
+- item:Portable Siege Engine
+- item:Potato
+- item:Potion Mixer
+- item:Potion of Botulinum
+- item:Power Cluster
+- item:Power Stone
+- item:Power Vacuum
+- item:Powersurge Mask
+- item:Prayer Bell
+- item:Predator Scales
+- item:Predator Teeth
+- item:Premeditated Stinkbomb
+- item:Prickly Potion
+- item:Proto-Golem
+- item:Purrfect Mask
+- item:Pyrefly
+- item:Quarterstaff
+- item:Quartz Sprite
+- item:Queen Bee
+- item:Quiver of Speed
+- item:Ragnarok
+- item:Rat Burglar
+- item:Rat King's Crown
+- item:Rat Lich
+- item:Rat Romancer
+- item:Ratatoskr
+- item:Ratbone
+- item:Ratnaros
+- item:Ratomelon
+- item:Ratuman the White
+- item:Ratymandias
+- item:Razor Bolt
+- item:Razorvine
+- item:Rebirth Mask
+- item:Red Widow
+- item:Reef Knot
+- item:Reefspike
+- item:Refined Jade
+- item:Regenerating Shield
+- item:Regrowth Barrier
+- item:Regular Old Lobster
+- item:Reinforced Shield
+- item:Relative Safety Goggles
+- item:Reptile Stalker
+- item:Rhongomiant
+- item:Rickety Mining Cart
+- item:River Rat
+- item:Robo Rat 2.0
+- item:Rock
+- item:Rolling Pin Nunchucks
+- item:Rolling Thunder Tablet
+- item:Rootflare Flute
+- item:Royal Nectar
+- item:Royal Seax
+- item:Ruby
+- item:Ruby Admiral
+- item:Rune of R'lyeh
+- item:Runesmith Goniometer
+- item:Rustjaw Shredder
+- item:Rusty Forge Hammer
+- item:Rusty Sword
+- item:Salty Mystery Egg
+- item:Sapphire
+- item:Sapphire Morpho
+- item:Sapwood
+- item:Sapwood Javelin
+- item:Sash
+- item:Sawfin Shark
+- item:Scalemail
+- item:Scarecrow
+- item:Scorpionfly
+- item:Scrap Metal
+- item:Screwsmacker
+- item:Scroll of Air
+- item:Scroll of Awakening
+- item:Scroll of Binding
+- item:Scroll of Blood
+- item:Scroll of Earth
+- item:Scroll of Fire
+- item:Scroll of Potential
+- item:Scroll of Replenishment
+- item:Scroll of Sharp Edges
+- item:Scroll of Water
+- item:Seafarer's Telescope
+- item:Seafoam Pipe
+- item:Searing Wand
+- item:Seeds
+- item:Serpent Deathbolt
+- item:Serpent's Tongue
+- item:Sewer-dwelling Sensei
+- item:Shadow Armor
+- item:Shadow Cloak
+- item:Shaman's Talisman
+- item:Shield Spikes
+- item:Shock Gloves
+- item:Shoddy Handline
+- item:Shovel
+- item:Sigil of Eternal Frost
+- item:Silverbark Bow
+- item:Simple Blowgun
+- item:Simple Quiver
+- item:Siphoning Chalice
+- item:Six-Spoke Ship's Wheel
+- item:Skull Cap
+- item:Skullsmasher
+- item:Sledgehammer
+- item:Slithering Lobster
+- item:Small Present
+- item:Smokeweaver
+- item:Snake Oil
+- item:Snapdragon
+- item:Sniper Scope
+- item:Snow Boulder
+- item:Snow Pear
+- item:Snowball
+- item:Sorcerat
+- item:Soulharvester
+- item:Soulpiercer
+- item:Soulstealer
+- item:Soup Ladle
+- item:Spanner
+- item:Spark
+- item:Spectral Sweet
+- item:Speed Essence
+- item:Spell Scroll
+- item:Spice
+- item:Spicy Sausage
+- item:Spiderweb
+- item:Spiked Shield
+- item:Spiked Sickle
+- item:Spiked Whip
+- item:Spinegrowth Breastplate
+- item:Spinegrowth Signet
+- item:Spirit Biscuit
+- item:Spring
+- item:Sprint Bot
+- item:Squirming Bicorne
+- item:Staff of Wisdom
+- item:Stalker's Shiv
+- item:Starbloom
+- item:Starlight Potion
+- item:Starwing
+- item:Steadfast Boots
+- item:Steel Bar
+- item:Steel Forge Hammer
+- item:Steel Pickaxe
+- item:Sticky Dart
+- item:Sticky Stuff
+- item:Stingtrap
+- item:Stone Golem
+- item:Stoneheart Brew
+- item:Stonehide Mask
+- item:Storm Lute
+- item:Stormbound Tranquility
+- item:Stormbreaker Armor
+- item:Stormcloud Staff
+- item:Stormstrike Gavel
+- item:Strong Antivenom
+- item:Strong Health Potion
+- item:Struggling Marlin
+- item:Stunbreaker Shield
+- item:Sturdy Fly Gaff
+- item:Sturdy Stick
+- item:Subtle Distractor Shield
+- item:Succulent
+- item:Succulent Cheese
+- item:Sundancer
+- item:Sunflower
+- item:Superior Bolts
+- item:Superior Gear
+- item:Superior Spring
+- item:Tactical Blowgun
+- item:Tainted Soulstone
+- item:Tempered Ritual Staff
+- item:Temporal Stone
+- item:Tenacity Potion
+- item:Tender Sausage
+- item:The Tenderizer
+- item:The Voidcaller
+- item:Third Eye Blindfold
+- item:Thorned Crown
+- item:Thornwall
+- item:Three Eyed Crab
+- item:Throwing Hatchet
+- item:Thunder Rat
+- item:Thunder Sword
+- item:Thunderbolt
+- item:Thunderfork
+- item:Thunderstorm Spear
+- item:Thunderstrike Ring
+- item:Tidal Clam
+- item:Tidal Staff
+- item:Tidepiercer
+- item:Timeless Hourglass
+- item:Tiny Kraken Tooth
+- item:Tiny Present
+- item:Titanwood Repeater
+- item:Tomahawk
+- item:Tonfas
+- item:Torch
+- item:Tournament Lance
+- item:Toxic Bolt
+- item:Training Blade
+- item:Trangoblizer Dart
+- item:Traveler's Hat
+- item:Treasure Chest
+- item:Trick-or-Treat Bucket
+- item:Truefire Bracers
+- item:Trusty Trench Coat
+- item:Tulip
+- item:Tusk
+- item:Twinmaw
+- item:Unblinking Overwatch
+- item:Unbreakable Wall
+- item:Unfortunate Tuna
+- item:Unholy Skull
+- item:Unholy Sword
+- item:Unsafe Safe Cracker
+- item:Vampire Bat
+- item:Vampire Worm
+- item:Vampire's Scepter
+- item:Vanguard Belt
+- item:Vanilla Dream
+- item:Velocity Ring
+- item:Venomous Pincer
+- item:Venus Pitfall
+- item:Very Big Present
+- item:Viperskin Strap
+- item:Viridian Warbler
+- item:Vitri-Oil Vault Drill
+- item:Voltaic Shiv
+- item:Wand of Backdraft
+- item:War Drum
+- item:Warbringer
+- item:Warhammer
+- item:Water Potion
+- item:Watermelon
+- item:Wax Candle
+- item:Weapons Rack
+- item:Web-Slinger Cover
+- item:Weightless Stone
+- item:Weirdly-shaped Present
+- item:Welding Torch
+- item:Werewolf Paw
+- item:Whetstone
+- item:Whirling Nunchucks
+- item:Whispering Conch
+- item:Wicked Stick
+- item:Wild Magic Scroll
+- item:Wild Rose
+- item:Wilderness Potion
+- item:Wildfire Essence
+- item:Wildflower Seeds
+- item:Wildflower Symphony
+- item:Willow Wand
+- item:Willowfin
+- item:Wing Clipper
+- item:Winged Thorns
+- item:Wizard Hat
+- item:Wizard Robe
+- item:Wolfstrike
+- item:Wood Sprite
+- item:Wooden Buckler
+- item:Wooden Club
+- item:Wooden Fife
+- item:Wooden Spoon
+- item:Wooden Stick
+- item:Wooden Sword
+- item:Woodsman's Axe
+- item:Worker Bee
+- item:World's End
+- item:Worn-out Lifebuoy
+- item:Wrath Potion
+- item:Writhing Tentacle
+- item:Young Oakheart
+- item:Young Squire
+- item:Zap Rat
+- item:Zenpanzee
+- item:Zephyr's Edge

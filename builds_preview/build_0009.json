@@ -1,0 +1,409 @@
+{
+ "grid": {
+  "cols": 9,
+  "rows": 6,
+  "cell": 120,
+  "origin_x": 342,
+  "origin_y": 34
+ },
+ "bags": [
+  {
+   "name": "Bottom Trawl",
+   "kind": "bag",
+   "cells": [
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     3,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     3
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "anchor": [
+    2,
+    3
+   ],
+   "rot": 0,
+   "img_path": "/home/user/Red/Bags/Bottom Trawl.png"
+  },
+  {
+   "name": "Radiance Satchel",
+   "kind": "bag",
+   "cells": [
+    [
+     3,
+     1
+    ],
+    [
+     4,
+     1
+    ],
+    [
+     5,
+     1
+    ]
+   ],
+   "anchor": [
+    3,
+    1
+   ],
+   "rot": 0,
+   "img_path": "/home/user/Red/Bags/Radiance Satchel.png"
+  },
+  {
+   "name": "Cast Net",
+   "kind": "bag",
+   "cells": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ]
+   ],
+   "anchor": [
+    0,
+    2
+   ],
+   "rot": 0,
+   "img_path": "/home/user/Red/Bags/Cast Net.png"
+  },
+  {
+   "name": "Recharge Rucksack",
+   "kind": "bag",
+   "cells": [
+    [
+     5,
+     2
+    ],
+    [
+     5,
+     3
+    ],
+    [
+     5,
+     4
+    ],
+    [
+     6,
+     2
+    ],
+    [
+     6,
+     3
+    ],
+    [
+     6,
+     4
+    ]
+   ],
+   "anchor": [
+    5,
+    2
+   ],
+   "rot": 0,
+   "img_path": "/home/user/Red/Bags/Recharge Rucksack.png"
+  },
+  {
+   "name": "Warrior Backpack",
+   "kind": "bag",
+   "cells": [
+    [
+     7,
+     2
+    ],
+    [
+     7,
+     3
+    ],
+    [
+     7,
+     4
+    ],
+    [
+     8,
+     2
+    ],
+    [
+     8,
+     3
+    ],
+    [
+     8,
+     4
+    ]
+   ],
+   "anchor": [
+    7,
+    2
+   ],
+   "rot": 0,
+   "img_path": "/home/user/Red/Bags/Warrior Backpack.png"
+  }
+ ],
+ "items": [
+  {
+   "name": "Icicle Shard",
+   "kind": "item",
+   "cells": [
+    [
+     6,
+     3
+    ],
+    [
+     7,
+     3
+    ]
+   ],
+   "anchor": [
+    6,
+    3
+   ],
+   "rot": 270,
+   "img_path": "/home/user/Red/Items/Icicle Shard.png"
+  },
+  {
+   "name": "Spice",
+   "kind": "item",
+   "cells": [
+    [
+     4,
+     5
+    ]
+   ],
+   "anchor": [
+    4,
+    5
+   ],
+   "rot": 180,
+   "img_path": "/home/user/Red/Items/Spice.png"
+  },
+  {
+   "name": "Boomslang",
+   "kind": "item",
+   "cells": [
+    [
+     3,
+     3
+    ],
+    [
+     4,
+     3
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     5,
+     3
+    ]
+   ],
+   "anchor": [
+    3,
+    3
+   ],
+   "rot": 0,
+   "img_path": "/home/user/Red/Items/Boomslang.png"
+  },
+  {
+   "name": "Vampire Worm",
+   "kind": "item",
+   "cells": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ]
+   ],
+   "anchor": [
+    1,
+    2
+   ],
+   "rot": 270,
+   "img_path": "/home/user/Red/Items/Vampire Worm.png"
+  },
+  {
+   "name": "Goblin Gizmo",
+   "kind": "item",
+   "cells": [
+    [
+     2,
+     5
+    ]
+   ],
+   "anchor": [
+    2,
+    5
+   ],
+   "rot": 0,
+   "img_path": "/home/user/Red/Items/Goblin Gizmo.png"
+  },
+  {
+   "name": "Iron Forge Hammer",
+   "kind": "item",
+   "cells": [
+    [
+     8,
+     3
+    ],
+    [
+     8,
+     4
+    ]
+   ],
+   "anchor": [
+    8,
+    3
+   ],
+   "rot": 0,
+   "img_path": "/home/user/Red/Items/Iron Forge Hammer.png"
+  },
+  {
+   "name": "Glaring Bulb",
+   "kind": "item",
+   "cells": [
+    [
+     6,
+     2
+    ]
+   ],
+   "anchor": [
+    6,
+    2
+   ],
+   "rot": 180,
+   "img_path": "/home/user/Red/Items/Glaring Bulb.png"
+  },
+  {
+   "name": "Muck Rat",
+   "kind": "item",
+   "cells": [
+    [
+     5,
+     4
+    ],
+    [
+     6,
+     4
+    ]
+   ],
+   "anchor": [
+    5,
+    4
+   ],
+   "rot": 0,
+   "img_path": "/home/user/Red/Items/Muck Rat.png"
+  },
+  {
+   "name": "Tidal Clam",
+   "kind": "item",
+   "cells": [
+    [
+     8,
+     2
+    ]
+   ],
+   "anchor": [
+    8,
+    2
+   ],
+   "rot": 180,
+   "img_path": "/home/user/Red/Items/Tidal Clam.png"
+  },
+  {
+   "name": "Voltaic Shiv",
+   "kind": "item",
+   "cells": [
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     5
+    ]
+   ],
+   "anchor": [
+    3,
+    4
+   ],
+   "rot": 0,
+   "img_path": "/home/user/Red/Items/Voltaic Shiv.png"
+  },
+  {
+   "name": "Dendromancy Rod",
+   "kind": "item",
+   "cells": [
+    [
+     3,
+     1
+    ],
+    [
+     4,
+     1
+    ],
+    [
+     5,
+     1
+    ]
+   ],
+   "anchor": [
+    3,
+    1
+   ],
+   "rot": 270,
+   "img_path": "/home/user/Red/Items/Dendromancy Rod.png"
+  }
+ ]
+}
