@@ -14,12 +14,11 @@ ROOT_DIR = SCRIPT_DIR.parent
 
 MODEL_YOLO_PATH = ROOT_DIR / "models" / "last.pt" 
 MODEL_RESNET_PATH = ROOT_DIR / "models" / "resnet50_classifier_best.pth" 
-IMAGE_PATH = ROOT_DIR / "test_object" / "image_1.png"
+IMAGE_PATH = ROOT_DIR / "test_object" / "image_5.png"
 TXT_PATH = ROOT_DIR / "classes_classifier.txt" 
 
-# [Новое!] Создаем путь для папки results и итоговой картинки
 RESULTS_DIR = ROOT_DIR / "results"
-RESULTS_DIR.mkdir(parents=True, exist_ok=True) # Создаст папку, если её нет
+RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 OUTPUT_IMAGE_PATH = RESULTS_DIR / "final_annotated.png"
 
 print("🚀 Запускаем полный ИИ-конвейер...")
@@ -53,22 +52,21 @@ transform = transforms.Compose([
 
 # --- 5. ПОЕХАЛИ! РАБОТА С КАРТИНКОЙ ---
 img_cv = cv2.imread(str(IMAGE_PATH))
-yolo_results = yolo_model.predict(source=str(IMAGE_PATH), conf=0.25, verbose=False)
+yolo_results = yolo_model.predict(source=str(IMAGE_PATH), conf=0.85, verbose=False)
 
 boxes = yolo_results[0].boxes
-masks = yolo_results[0].masks.xy # [Новое!] Достаем точные пиксельные контуры (полигоны)
+masks = yolo_results[0].masks.xy
 
 print(f"\n🔍 YOLO нашла {len(boxes)} объектов. Начинаем распознавание...\n")
 
 item_count = 0
 bag_count = 0
 
-# [Новое!] Добавили enumerate, чтобы индекс i совпадал с номером маски
+
 for i, box in enumerate(boxes):
     class_id = int(box.cls[0]) 
     x1, y1, x2, y2 = map(int, box.xyxy[0])
     
-    # [Новое!] Превращаем контур в формат, понятный для OpenCV
     polygon = np.array(masks[i], np.int32) 
     
     # === СУМКИ ===
@@ -76,7 +74,6 @@ for i, box in enumerate(boxes):
         bag_count += 1
         color = (255, 144, 30) 
         
-        # [Новое!] Рисуем полигон (облегающий контур) вместо прямоугольника
         cv2.polylines(img_cv, [polygon], isClosed=True, color=color, thickness=2)
         cv2.putText(img_cv, "Bag", (x1, max(y1 - 5, 10)), cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, 2)
     
@@ -84,7 +81,6 @@ for i, box in enumerate(boxes):
     elif class_id == 1:
         item_count += 1
         
-        # Вырезаем квадратик для ResNet (тут квадраты нужны, ResNet не понимает полигоны)
         cropped_img = img_cv[y1:y2, x1:x2]
         cropped_img_rgb = cv2.cvtColor(cropped_img, cv2.COLOR_BGR2RGB)
         pil_img = Image.fromarray(cropped_img_rgb)
@@ -100,13 +96,9 @@ for i, box in enumerate(boxes):
         
         print(f"Предмет #{item_count}: Распознан как: {final_class_name}")
         
-        # [Новое!] Рисуем зеленый полигон вокруг предмета
         color = (0, 255, 0) 
         cv2.polylines(img_cv, [polygon], isClosed=True, color=color, thickness=2)
         cv2.putText(img_cv, final_class_name, (x1, max(y1 - 5, 10)), cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, 2)
-
-# --- 6. СОХРАНЯЕМ ИТОГОВУЮ КАРТИНКУ ---
-cv2.imwrite(str(OUTPUT_IMAGE_PATH), img_cv)
 
 # --- 6. [Новое!] СОХРАНЯЕМ ИТОГОВУЮ КАРТИНКУ ---
 cv2.imwrite(str(OUTPUT_IMAGE_PATH), img_cv)

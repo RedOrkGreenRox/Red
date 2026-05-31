@@ -1,0 +1,6 @@
+.venv/
+venv/
+**/__pycache__/
+**/builds_preview/
+**/dataset_cropped_2classes/
+**/classifier_dataset/
